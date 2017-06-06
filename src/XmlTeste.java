@@ -31,7 +31,7 @@ public class XmlTeste {
 		 * Estrutura Inicial XML
 		 */
 
-		escritor.append("<?xml version=\"1.0\"?> \r\n");
+		escritor.append("<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>  \r\n");
 		escritor.append("<dic> \r\n");
 		escritor.append("<head>" + letra + "</head>\r\n");
 		escritor.append("\r\n");
